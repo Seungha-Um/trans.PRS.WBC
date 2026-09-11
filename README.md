@@ -67,7 +67,7 @@ The implementation of PheWAS and PCA-based ancestry adjustment of PRS in this re
 We gratefully acknowledge the authors for making their work and code available, which provided an important foundation for these analyses. 
 
 
-For the longitudinal WBC trajectory analysis, we applied a random-intercept Bayesian additive regression tree (riBART) model to account for clustering across study sites. 
+For the longitudinal WBC trajectory analysis, we applied a random-intercept Bayesian additive regression tree (riBART) model to account for clustering across study sites [5] [6]. 
 The `rbart_vi()` function in the `dbarts` R package is applicable. Alternatively, the `SoftBart` R package provides a flexible BART framework that can be extended to incorporate random intercepts [4]. 
 We gratefully acknowledge the authors for making their code publicly available, which provided an important foundation for these analyses.
 
@@ -80,3 +80,7 @@ We gratefully acknowledge the authors for making their code publicly available, 
 [3] Chen MH, Raffield LM, Mousas A, et al. Trans-ethnic and ancestry-specific blood-cell genetics in 746,667 individuals from 5 global populations. Cell. 2020;182(5):1198–1213.e14. doi:10.1016/j.cell.2020.06.045.
 
 [4] Linero AR, Yang Y. Bayesian regression tree ensembles that adapt to smoothness and sparsity. J R Stat Soc Series B Stat Methodol. 2018;80(5):1087–1110. doi:10.1111/rssb.12293.
+
+[5] Tan YV, Roy J. Bayesian additive regression trees and the General BART model. Statistics and Its Interface. 2018;11(4):557–572.
+
+[6] Tan YV, Flannagan CAC, Elliott MR. Predicting human-driving behavior to help driverless vehicles drive: random intercept Bayesian Additive Regression Trees. Statistics and Its Interface. 2018;11(4):557–572. doi: 10.4310/SII.2018.v11.n4.a1.
