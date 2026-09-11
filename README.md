@@ -69,6 +69,8 @@ We gratefully acknowledge the authors for making their work and code available, 
 
 For the longitudinal WBC trajectory analysis, we applied a random-intercept Bayesian additive regression tree (riBART) model to account for clustering across study sites [5] [6]. 
 The `rbart_vi()` function in the `dbarts` R package is applicable. 
+
+
 Alternatively, the `SoftBart` R package provides a flexible BART framework that can be extended to incorporate random intercepts, with the corresponding code provided by Linero et al. [4].
 We gratefully acknowledge the authors for making their code publicly available, which provided an important foundation for these analyses.
 
