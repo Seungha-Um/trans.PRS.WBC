@@ -2,7 +2,7 @@
 # trans.PRS.WBC
 
 Integrating genomic data with electronic health records (EHRs) requires multiple processing steps and specialized software for genomic data, particularly because of its complex structure and large scale. 
-This repository provides workflows for computing a trans-ancestry PRS for WBC count (PRS-WBC) and linking the resulting scores to corresponding individual-level health records. 
+This repository provides workflows for computing a trans-ancestry PRS for WBC count (PRS-WBC) and linking the resulting scores to corresponding individual-level health records, along with downstream analyses.
 We subsequently implement a phenome-wide association study (PheWAS) and tree-ensemble models to examine associations between genetic predisposition to WBC count and clinical phenotypes, as well as longitudinal WBC trajectories.
 
 # Computing trans-ancestry PRS for WBC
